@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'unitario';
+  active: boolean=true;
+  sum(x:number, y:number):number{
+    return x+y;
+  }
 }
